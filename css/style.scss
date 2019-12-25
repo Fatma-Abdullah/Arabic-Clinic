@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100%;
+ display:flex;
+flex-direction: column; 
+color: #474747;
+direction:rtl;
+text-align:right;
+
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------home--------- */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 14em;
+}
+
+.blueBg {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
+}
+
+
+
+/* -------setting----------- */
+.header {
+    background-color: #2698f3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 9px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    h6{
+        margin: 5px 54px;
+    }
+   
+    
+    h5{
+        margin-top:9px
+    }
+    i{
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    .noMargin{
+        margin: 5px 12px;
+    }
+    .midMargin{
+        h6{
+        margin: 5px 100px;
+    } 
+    }
+  
+}
+.homeMargin{
+    h6{
+        margin: 5px 94px;
+    }
+}
+.patientMargin{
+    h6{
+        margin: 5px 88px;
+    }
+}
+.footer {
+    background-color: #2698f3;
+    color: #c0e2ff;
+    bottom: 0;
+    width: 100%;
+    padding: 14px 0;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    height: 60px;
+}
+
+.footer .row .col-3 , .col-4 {
+    display: flex;
+    justify-content: center;
+    .active{
+        color: white;
+    }
+}
+
+.footer .row .col-3  a, i ,.col-4 a, i{
+    color: #c0e2ff;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2px;
+   
+}
+.rightDiv{
+    text-align: left;
+    margin: 1em 2em;
+    position: fixed;
+    left: 0;
+    bottom: 3.5em;
+    i{
+        font-size: 3em;
+        color: #2698f3;
+
+    }
+}
+.blueIcon{
+    text-align: right;
+    i{
+        font-size: 2em;
+        color: #2698f3;
+
+    }
+}
+.updateBtn{
+    margin: 3em auto;
+    // margin: -5em auto 5em auto;
+    button{
+        width: 152px;
+        font-size: 14px;
+    }
+}
+.content {
+    min-height: 100%;
+    // min-height: calc(100vh - 40px);
+    // min-height: 86vh;
+    margin: 4em 0 1em 0;
+    .imageCenter{
+        margin-top: 142px;
+    }
+    .boldTxt h5{
+        font-weight: bold;
+    }
+    .prescList {
+        background-color: white;
+        padding: 7px 15px;
+        .btns{
+            display: flex;
+            justify-content: center;
+            margin: 15px auto;
+            height: 40px;
+            button {
+                cursor: pointer;
+                margin-left: -4px;
+                font-size: 13px;
+                width: 48%;
+            }
+            .btn1{
+                border-radius: 5px 0px 0px 5px;
+            }
+            .btn2{
+                border-radius: 0px 5px 5px 0px;
+            }
+        }
+        .btn-primary{
+            border-radius: 25px;
+            padding: 5px 11px;
+            font-size: 15px;
+            margin-top: 8px;
+        }
+        .attach{
+            display: flex;
+            align-items: center;
+            .col-4{
+                padding: 0;
+                margin: 0;
+            }
+            .col-2 , .col-10 {
+                padding-right: 0 !important;
+            }
+        }
+    }
+    .titleRow{
+        display: flex;
+        img{
+            width: 15px;
+            height: 15px;
+            margin-left: 5px;
+        }
+        .lowwidth{
+            width: 12px;
+        }
+    }
+   
+    .doc{
+        background-color: white;
+        border:none !important ;
+        margin: 5px auto !important;
+        padding: 10px;
+        .docSelect .col-1{
+            padding-left:0 !important;
+            padding-right:0 !important;
+        }
+        .title{
+            font-size: 16px;
+        }
+        .grayTitle{
+            font-size: 16px;
+            color:#8d8daa
+        }
+        @mixin placeholder {
+            &::-webkit-input-placeholder {@content}
+            &:-moz-placeholder           {@content}
+            &::-moz-placeholder          {@content}
+            &:-ms-input-placeholder      {@content}  
+        }
+        input{
+            width:100%;
+            font-size:10px;
+            &.btn-primary{
+                @include placeholder {
+                    color: white;
+                }
+            
+            } 
+            
+        }
+        .col-6{
+            padding-right: 0 !important; 
+            padding-left: 10px !important;
+        }
+        .para{
+            font-weight: bold;
+            margin:0;
+            font-size:13px;
+        }
+    }
+    .title{
+        font-weight: bold;
+        margin:0;
+        font-size:16px;
+        color: #474747;
+    }
+    .para{
+        font-weight: lighter;
+        margin:0;
+        font-size:13px;
+    }
+    .drug{
+        margin-right: 15px;
+        background-color: #F3F9FE;
+        padding: 5px;
+        margin-top: 5px;
+        .MiniTitle{
+            font-weight: bold;
+            margin:0;
+            font-size:16px;
+            color:#2698F3 ;
+        }
+        span.para{
+            font-size: 14px;
+        }
+    }
+    .lang{
+        margin:0;
+        padding: 10px;
+        border-bottom: 0.1px solid #d4d4d4;
+        .title{
+            font-size: 16px;
+        }
+        &:first-child{
+            background-color: #F2F9FF;
+            .title , i{
+                color: #2698F3;
+            }
+        }
+    }
+    .images{
+        display: flex;
+        img{
+            margin: 5px;
+            width: 30vw;
+        }
+    }
+    @mixin placeholder {
+        ::-webkit-input-placeholder {@content}
+        :-moz-placeholder           {@content}
+        ::-moz-placeholder          {@content}
+        :-ms-input-placeholder      {@content}  
+      }
+      
+    .blueInput{
+        margin: 5px;
+        border: 1px solid #2698F3;
+        border-radius: 5px;
+        @include placeholder {
+            color: #2698F3;
+        }
+    }
+
+}
+
+
+.blue {
+    color: #2698f3;
+}
+.gray{
+    background-color: #f3f3f3;
+}
+.settingItem {
+    padding: 9px 0;
+    box-shadow: 1px 2px 3px 2px #f3f5f7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+
+    .row {
+        margin: 0;
+    }
+
+    .row .col-6, .col-7, .col-12 {
+        p {
+            font-size: 11px;
+            margin-bottom: 0;
+            width: max-content;
+            margin-top: 5px;
+        }
+
+        i {
+            color: #2698f3;
+            margin-right: 5px;
+        }
+
+        a {
+            color: black;
+            font-size: 11px;
+        }
+    }
+}
+// ---------change password--------
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    height: 40px;
+    button {
+        cursor: pointer;
+        margin-left: -4px;
+        font-size: 13px;
+        width: 48%;
+    }
+    .btn1{
+        border-radius: 0px 5px 5px 0px;
+
+    }
+    .btn2{
+        border-radius: 5px 0px 0px 5px;
+    }
+}
+.btnsRounded{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    height: 40px;
+    button {
+        cursor: pointer;
+        margin-left: -4px;
+        font-size: 13px;
+        width: 48%;
+        border-radius: 6.7em;
+    }
+    .btn1{
+        // border-radius: 50%;
+        z-index: 5;
+        position: relative;
+    right: 0px;
+    right: -16px;
+    width: 50%;
+    }
+    .btn2{
+        border-left-color: white;
+        position: relative;
+    right: 0px;
+    width: 50%;
+ 
+    }
+}
+.bookingBtns{
+    .btn{
+        color: #2698f3;
+        background-color: white;
+        border: 1px solid #2698f3;   
+        position: relative;
+    width: 100%;
+    padding: 3px;
+    font-size: 11px;
+ 
+    }
+    
+    .active{
+        // .btn{}
+        color: white;
+        background-color: #2698f3;
+        z-index: 5;
+        position: relative;
+        width: 100%;
+
+    } 
+}
+.btnsRounded2{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    height: 40px;
+    button {
+        cursor: pointer;
+        margin-left: -4px;
+        font-size: 13px;
+        width: 48%;
+        border-radius: 6.7em;
+    }
+   
+    .btn{
+        color: #2698f3;
+        background-color: white;
+        border: 1px solid #2698f3;   
+        position: relative;
+    right: 0px;
+    width: 50%;
+    left:3px
+ 
+    }
+    .active{
+        color: white;
+        background-color: #2698f3;
+        z-index: 5;
+        position: relative;
+        width: 50%;
+    }
+}
+.active{
+    color: white;
+    background-color: #2698f3;
+    border-radius: 5px;
+}
+
+form{
+    .col-12{
+        padding-right: 9px;
+        padding-left: 5px;
+    }
+}
+.loginForm{
+    margin: auto 1em;
+    label{
+        color: #2698f3;
+    }
+    input{
+        border: none;
+        border-radius: 0;
+        border-bottom:1px solid gray
+
+    }
+}
+.headerBanner{
+    img{
+        width:100%
+    }
+}
+.leftSide{
+    margin-top:1em;
+    text-align:left;
+    background-image: url(../images/footerBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em 0;
+    button{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+.updateBtn {
+    margin: 2em auto 4em auto;
+}
+@media screen and (max-width: 800px) and (min-width: 320px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 374px) and (min-width: 320px) {
+    .header{
+        h6{
+            margin: 5px 106px;
+        }
+    }
+    .homeMargin{
+        h6{
+            margin: 5px 124px;
+        }
+    }
+    .patientMargin{
+        h6{
+            margin: 5px 88px;
+        }
+    }
+    .appointMargin{
+        h6{
+            margin: 5px 69px;
+        }
+    }
+    .chPassMargin{
+        h6{
+            margin: 5px 48px;
+        }
+    }
+    .bookMargin{
+        h6{
+            margin: 5px 91px;
+        }
+    }
+}
+@media screen and (max-width: 411px) and (min-width: 375px) {
+    .header{
+        h6{
+            margin: 5px 133px;
+        }
+    }
+    .homeMargin{
+        h6{
+            margin: 5px 159px;
+        }
+    }
+    .patientMargin{
+        h6{
+            margin: 5px 115px;
+        }
+    }
+    .appointMargin{
+        h6{
+            margin: 5px 90px;
+        }
+    }
+    .chPassMargin{
+        h6{
+            margin: 5px 76px;
+        }
+    }
+    .fHeight{
+        min-height: 85vh;
+
+    }
+    .bookMargin{
+        h6{
+            margin: 5px 118px;
+        }
+    }
+    
+
+.leftSide {
+    margin-top: 7em;
+}
+}
+
+@media screen and (max-width: 758px) and (min-width: 411px) {
+    .header{
+        h6{
+            margin: 5px 152px;
+        }
+    }
+    .homeMargin{
+        h6{
+            margin: 5px 170px;
+        }
+    }
+    .patientMargin{
+        h6{
+            margin: 5px 130px;
+        }
+    }
+    .appointMargin{
+        h6{
+            margin: 5px 110px;
+        }
+    }
+    .chPassMargin{
+        h6{
+            margin: 5px 94px;
+        }
+    }
+    .bookMargin{
+        h6{
+            margin: 5px 136px;
+        }
+    }
+    }
+
+            @media screen and (max-width: 1040px) and (min-width: 768px) {
+        .header{
+            h6{
+                margin: 5px 328px;
+            }
+        }
+        .homeMargin{
+            h6{
+                margin: 5px 347px;
+            }
+        }
+        .patientMargin{
+            h6{
+                margin: 5px 285px;
+            }
+        }
+        .appointMargin{
+            h6{
+                margin: 5px 270px;
+            }
+        }
+        .chPassMargin{
+            h6{
+                margin: 5px 266px;
+            }
+        }
+        .bookMargin{
+            h6{
+                margin: 5px 305px;
+            }
+        }
+        .container {
+            max-width: 767px !important;
+        }
+        .updateBtn {
+            margin: 1em auto 5em auto;
+        }
+        .leftSide {
+            margin-top: 0em;
+            padding: 9em 0;
+
+        }
+      
+        }
