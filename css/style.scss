@@ -66,16 +66,30 @@ a {
     top: 0;
     position: fixed;
     z-index: 999;
-    h6{
-        margin: 5px 54px;
+    // h6{
+    //     margin: 5px 54px;
+    // }
+    .icon1{
+        width: 15%;
+        display: flex;
+        justify-content: center;
     }
-   
-    
+    .headTitle{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+    }
+    .headTitle2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+  
     h5{
         margin-top:9px
     }
     i{
-        margin-right: 25px;
+        // margin-right: 25px;
         cursor: pointer;
     }
     .noMargin{
@@ -93,11 +107,7 @@ a {
         margin: 5px 94px;
     }
 }
-.patientMargin{
-    h6{
-        margin: 5px 88px;
-    }
-}
+
 .footer {
     background-color: #2698f3;
     color: #c0e2ff;
@@ -509,6 +519,16 @@ form{
 .updateBtn {
     margin: 2em auto 4em auto;
 }
+.staticMargin{
+    h6{
+        margin: 2% 33%;
+    }
+}
+.smallMargin{
+    h6{
+        margin: 2% 33%;
+    }
+}
 @media screen and (max-width: 800px) and (min-width: 320px) {
     html, body {
         width: 100%;
@@ -522,72 +542,72 @@ form{
     }
 }
 @media screen and (max-width: 374px) and (min-width: 320px) {
-    .header{
-        h6{
-            margin: 5px 106px;
-        }
-    }
-    .homeMargin{
-        h6{
-            margin: 5px 124px;
-        }
-    }
-    .patientMargin{
-        h6{
-            margin: 5px 88px;
-        }
-    }
-    .appointMargin{
-        h6{
-            margin: 5px 69px;
-        }
-    }
-    .chPassMargin{
-        h6{
-            margin: 5px 48px;
-        }
-    }
-    .bookMargin{
-        h6{
-            margin: 5px 91px;
-        }
-    }
+    // .header{
+    //     h6{
+    //         margin: 5px 106px;
+    //     }
+    // }
+    // .homeMargin{
+    //     h6{
+    //         margin: 5px 124px;
+    //     }
+    // }
+    // .patientMargin{
+    //     h6{
+    //         margin: 2% 27% !important;
+    //     }
+    // }
+    // .appointMargin{
+    //     h6{
+    //         margin: 5px 69px;
+    //     }
+    // }
+    // .chPassMargin{
+    //     h6{
+    //         margin: 5px 48px;
+    //     }
+    // }
+    // .bookMargin{
+    //     h6{
+    //         margin: 5px 91px;
+    //     }
+    // }
 }
 @media screen and (max-width: 411px) and (min-width: 375px) {
-    .header{
-        h6{
-            margin: 5px 133px;
-        }
-    }
-    .homeMargin{
-        h6{
-            margin: 5px 159px;
-        }
-    }
-    .patientMargin{
-        h6{
-            margin: 5px 115px;
-        }
-    }
-    .appointMargin{
-        h6{
-            margin: 5px 90px;
-        }
-    }
-    .chPassMargin{
-        h6{
-            margin: 5px 76px;
-        }
-    }
+    // .header{
+    //     h6{
+    //         margin: 5px 133px;
+    //     }
+    // }
+    // .homeMargin{
+    //     h6{
+    //         margin: 5px 159px;
+    //     }
+    // }
+    // .patientMargin{
+    //     h6{
+    //         margin: 2% 27% !important;
+    //     }
+    // }
+    // .appointMargin{
+    //     h6{
+    //         margin: 5px 90px;
+    //     }
+    // }
+    // .chPassMargin{
+    //     h6{
+    //         margin: 5px 76px;
+    //     }
+    // }
     .fHeight{
         min-height: 85vh;
 
     }
-    .bookMargin{
-        h6{
-            margin: 5px 118px;
-        }
-    }
+    // .bookMargin{
+    //     h6{
+    //         margin: 5px 118px;
+    //     }
+    // }
     
 
 .leftSide {
@@ -596,69 +616,69 @@ form{
 }
 
 @media screen and (max-width: 758px) and (min-width: 411px) {
-    .header{
-        h6{
-            margin: 5px 152px;
-        }
-    }
-    .homeMargin{
-        h6{
-            margin: 5px 170px;
-        }
-    }
-    .patientMargin{
-        h6{
-            margin: 5px 130px;
-        }
-    }
-    .appointMargin{
-        h6{
-            margin: 5px 110px;
-        }
-    }
-    .chPassMargin{
-        h6{
-            margin: 5px 94px;
-        }
-    }
-    .bookMargin{
-        h6{
-            margin: 5px 136px;
-        }
-    }
+    // .header{
+    //     h6{
+    //         margin: 5px 152px;
+    //     }
+    // }
+    // .homeMargin{
+    //     h6{
+    //         margin: 5px 170px;
+    //     }
+    // }
+    // .patientMargin{
+    //     h6{
+    //         margin: 2% 27% !important;
+    //     }
+    // }
+    // .appointMargin{
+    //     h6{
+    //         margin: 5px 110px;
+    //     }
+    // }
+    // .chPassMargin{
+    //     h6{
+    //         margin: 5px 94px;
+    //     }
+    // }
+    // .bookMargin{
+    //     h6{
+    //         margin: 5px 136px;
+    //     }
+    // }
     }
 
             @media screen and (max-width: 1040px) and (min-width: 768px) {
-        .header{
-            h6{
-                margin: 5px 328px;
-            }
-        }
-        .homeMargin{
-            h6{
-                margin: 5px 347px;
-            }
-        }
-        .patientMargin{
-            h6{
-                margin: 5px 285px;
-            }
-        }
-        .appointMargin{
-            h6{
-                margin: 5px 270px;
-            }
-        }
-        .chPassMargin{
-            h6{
-                margin: 5px 266px;
-            }
-        }
-        .bookMargin{
-            h6{
-                margin: 5px 305px;
-            }
-        }
+        // .header{
+        //     h6{
+        //         margin: 5px 328px;
+        //     }
+        // }
+        // .homeMargin{
+        //     h6{
+        //         margin: 5px 347px;
+        //     }
+        // }
+        // .patientMargin{
+        //     h6{
+        //         margin: 2% 27% !important;
+        //     }
+        // }
+        // .appointMargin{
+        //     h6{
+        //         margin: 5px 270px;
+        //     }
+        // }
+        // .chPassMargin{
+        //     h6{
+        //         margin: 5px 266px;
+        //     }
+        // }
+        // .bookMargin{
+        //     h6{
+        //         margin: 5px 305px;
+        //     }
+        // }
         .container {
             max-width: 767px !important;
         }
