@@ -83,6 +83,10 @@ a {
         width: 90%;
         display: flex;
         justify-content: center;
+        .form-control{
+            display: flex;
+            width: inherit;
+                }
     }
   
     h5{

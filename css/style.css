@@ -85,6 +85,11 @@ a {
   justify-content: center;
 }
 
+.header .headTitle2 .form-control {
+  display: flex;
+  width: inherit;
+}
+
 .header h5 {
   margin-top: 9px;
 }
